@@ -19,7 +19,5 @@ else {
 const tests = [-5, 0, 74, 75, 84, 85, 94, 95, 100, 120];
 
 for (const t of tests) {
-    console.log(Score ${t} -> ${assessGrade(t)});
+  console.log(`Score ${t} -> ${assessGrade(t)}`);
 }
-
-

@@ -23,3 +23,6 @@ if (data.age >= 18 && data.age <= 60) {
 }
     return errors;
 }
+
+const result = validate(account);
+console.log(result);
